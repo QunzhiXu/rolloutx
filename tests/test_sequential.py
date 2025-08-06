@@ -1,7 +1,8 @@
 # ROLLOUTX/tests/test_sequential.py
 
 import pytest
-from ..sequential.core import design_sequential
+from rolloutx.sequential.core import design_sequential
+
 
 def test_design_sequential_given_r():
     result = design_sequential(

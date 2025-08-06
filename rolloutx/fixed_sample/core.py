@@ -1,7 +1,7 @@
-from fixed_sample.compute_beta import compute_beta
-from fixed_sample.compute_d import compute_d, plot_beta_vs_d
-from fixed_sample.compute_r import compute_r, plot_beta_vs_r
-from fixed_sample.check import check_params
+from .compute_beta import compute_beta
+from .compute_d import compute_d, plot_beta_vs_d
+from .compute_r import compute_r, plot_beta_vs_r
+from .check import check_params
 
 
 
